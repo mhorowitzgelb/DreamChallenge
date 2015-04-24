@@ -1,0 +1,6 @@
+Notes for editing core table. 
+Replace all missing values with ?
+For numerical values should hopefully have a . for missing values. (Make sure to do a control find for whole row or else you'll replace decimal numbers)
+For region MISSING should be replaced with ?
+Remove Smoke frequency and smoke status they just fucking suck.
+Be sure to change AGGEGRP for peop >=85 value just to 85 so can be numeric
