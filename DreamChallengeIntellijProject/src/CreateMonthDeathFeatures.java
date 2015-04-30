@@ -24,30 +24,35 @@ public class CreateMonthDeathFeatures {
         ArrayList<String> values = new ArrayList<String>();
         values.add("YES");
         values.add("NO");
+        values.add("0");
 
-        data.insertAttributeAt(new Attribute("Death12",values),5);
-        data.insertAttributeAt(new Attribute("Death18",values),6);
-        data.insertAttributeAt(new Attribute("Death24",values),7);
+        data.insertAttributeAt(new Attribute("DEATH12", values), 5);
+        data.insertAttributeAt(new Attribute("DEATH18",values),6);
+        data.insertAttributeAt(new Attribute("DEATH24",values),7);
 
         for(int i = 0; i < data.numInstances(); i ++){
             Instance instance = data.instance(i);
-            if(instance.value(3) <= 365 && instance.stringValue(4).equals("YES")){
-                instance.setValue(5,"YES");
+            if(instance.stringValue(4).equals("NO")){
+                instance.setValue(5,"0");
+                instance.setValue(6,"0");
+                instance.setValue(7,"0");
             }
-            else{
-                instance.setValue(5,"NO");
-            }
-            if(instance.value(3) <= 546 && instance.stringValue(4).equals("YES")){
-                instance.setValue(6,"YES");
-            }
-            else{
-                instance.setValue(6,"NO");
-            }
-            if(instance.value(3) <= 730 && instance.stringValue(4).equals("YES")){
-                instance.setValue(7,"YES");
-            }
-            else{
-                instance.setValue(7,"NO");
+            else {
+                if (instance.value(3) <= 365 && instance.stringValue(4).equals("YES")) {
+                    instance.setValue(5, "YES");
+                } else {
+                    instance.setValue(5, "NO");
+                }
+                if (instance.value(3) <= 546 && instance.stringValue(4).equals("YES")) {
+                    instance.setValue(6, "YES");
+                } else {
+                    instance.setValue(6, "NO");
+                }
+                if (instance.value(3) <= 730 && instance.stringValue(4).equals("YES")) {
+                    instance.setValue(7, "YES");
+                } else {
+                    instance.setValue(7, "NO");
+                }
             }
         }
 
