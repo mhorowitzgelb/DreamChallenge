@@ -1,0 +1,372 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     CoreTable_training_edited_with_month_deaths-weka.filters.unsupervised.attribute.Remove-R1-4,6-16-weka.filters.unsupervised.attribute.Remove-V-R107,113,72,14,52,35,50,23,16,31,65,19,46,4,85,39,49,40,114,20,17,78,5,24,7,62,29,41,10,28,64,55,69,59,25,104,32,51,63,86,60,67,8,70,68,33,93,47,88,102,1
+Instances:    1600
+Attributes:   51
+              MHNEOPLA
+              MHSOCIAL
+              CORTICOSTEROID
+              ALP
+              PERITONEUM
+              BUN
+              ADRENAL
+              PSA
+              AST
+              ALB
+              BILATERAL_ORCHIDECTOMY
+              HB
+              LIVER
+              RACE_C
+              GIBLEED
+              NON_TARGET
+              PROSTATE
+              TARGET
+              MHSURG
+              LDH
+              CA
+              ANTI_ESTROGENS
+              BMI
+              TBILI
+              WEIGHTBL
+              TURP
+              MG
+              BONE
+              ECOG_C
+              NA.
+              SPINAL_CORD_SURGERY
+              SOFT_TISSUE
+              GLUCOCORTICOID
+              ABDOMINAL
+              TESTO
+              MHINVEST
+              TPRO
+              BLADDER
+              LYMPHADENECTOMY
+              MI
+              ORCHIDECTOMY
+              ANALGESICS
+              REGION_C
+              GONADOTROPIN
+              ANTI_ANDROGENS
+              RBC
+              MHCARD
+              PLEURA
+              PULMEMB
+              MHINFECT
+              DEATH
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                            Class
+Attribute                     YES       NO
+                           (0.41)   (0.59)
+===========================================
+MHNEOPLA
+  NO                         545.0    487.0
+  YES                        120.0    452.0
+  [total]                    665.0    939.0
+
+MHSOCIAL
+  NO                         525.0    879.0
+  YES                        140.0     60.0
+  [total]                    665.0    939.0
+
+CORTICOSTEROID
+  NO                         526.0    876.0
+  YES                        139.0     63.0
+  [total]                    665.0    939.0
+
+ALP
+  mean                    312.2649 206.4096
+  std. dev.               409.2494 335.1993
+  weight sum                   661      934
+  precision                 7.3944   7.3944
+
+PERITONEUM
+  NO                         658.0    936.0
+  Y                            7.0      3.0
+  [total]                    665.0    939.0
+
+BUN
+  mean                      6.9691   6.7569
+  std. dev.                 2.9025   1.9345
+  weight sum                   190      481
+  precision                 0.1451   0.1451
+
+ADRENAL
+  NO                         643.0    927.0
+  Y                           22.0     12.0
+  [total]                    665.0    939.0
+
+PSA
+  mean                    303.7265 225.0141
+  std. dev.               525.5527 583.9853
+  weight sum                   659      930
+  precision                 6.6574   6.6574
+
+AST
+  mean                     30.4096  25.8096
+  std. dev.                 20.278  10.9064
+  weight sum                   657      930
+  precision                 2.5944   2.5944
+
+ALB
+  mean                     40.9548  42.9398
+  std. dev.                 4.5125   3.7044
+  weight sum                   513      594
+  precision                   0.26     0.26
+
+BILATERAL_ORCHIDECTOMY
+  NO                         555.0    857.0
+  Y                          110.0     82.0
+  [total]                    665.0    939.0
+
+HB
+  mean                     12.3029  12.7574
+  std. dev.                 1.4399   1.4304
+  weight sum                   660      927
+  precision                  0.188    0.188
+
+LIVER
+  NO                         592.0    887.0
+  Y                           73.0     52.0
+  [total]                    665.0    939.0
+
+RACE_C
+  Black                       26.0     50.0
+  White                      593.0    799.0
+  Other                        6.0     22.0
+  Hispanic                     5.0     11.0
+  Asian                       28.0     15.0
+  Missing                     11.0     46.0
+  [total]                    669.0    943.0
+
+GIBLEED
+  NO                         649.0    929.0
+  Y                           16.0     10.0
+  [total]                    665.0    939.0
+
+NON_TARGET
+  NO                         170.0    373.0
+  Y                          495.0    566.0
+  [total]                    665.0    939.0
+
+PROSTATE
+  NO                         588.0    882.0
+  Y                           77.0     57.0
+  [total]                    665.0    939.0
+
+TARGET
+  NO                         338.0    615.0
+  Y                          327.0    324.0
+  [total]                    665.0    939.0
+
+MHSURG
+  NO                         462.0    752.0
+  YES                        203.0    187.0
+  [total]                    665.0    939.0
+
+LDH
+  mean                     318.256 247.6377
+  std. dev.               252.1046 222.1526
+  weight sum                   228      762
+  precision                 8.5812   8.5812
+
+CA
+  mean                      2.3038   2.3313
+  std. dev.                 0.1935   0.1591
+  weight sum                   658      931
+  precision                 0.0136   0.0136
+
+ANTI_ESTROGENS
+  NO                         658.0    934.0
+  YES                          7.0      5.0
+  [total]                    665.0    939.0
+
+BMI
+  mean                     27.6541  28.5988
+  std. dev.                 4.1826   4.7406
+  weight sum                   660      930
+  precision                 0.1745   0.1745
+
+TBILI
+  mean                      8.1258    7.361
+  std. dev.                    3.8   3.7025
+  weight sum                   654      923
+  precision                 0.2194   0.2194
+
+WEIGHTBL
+  mean                     83.4413   86.971
+  std. dev.                15.2113  16.1108
+  weight sum                   662      936
+  precision                 0.2569   0.2569
+
+TURP
+  NO                         588.0    872.0
+  Y                           77.0     67.0
+  [total]                    665.0    939.0
+
+MG
+  mean                      0.9014   0.8821
+  std. dev.                 0.3307   0.3135
+  weight sum                   501      589
+  precision                 0.0719   0.0719
+
+BONE
+  Y                          572.0    743.0
+  NO                          93.0    196.0
+  [total]                    665.0    939.0
+
+ECOG_C
+  mean                      0.6576   0.5096
+  std. dev.                 0.6008   0.5546
+  weight sum                   663      936
+  precision                      1        1
+
+NA.
+  mean                    139.3544  139.871
+  std. dev.                 3.7894   2.9302
+  weight sum                   523      596
+  precision                 0.7843   0.7843
+
+SPINAL_CORD_SURGERY
+  NO                         663.0    935.0
+  Y                            2.0      4.0
+  [total]                    665.0    939.0
+
+SOFT_TISSUE
+  NO                         653.0    910.0
+  Y                           12.0     29.0
+  [total]                    665.0    939.0
+
+GLUCOCORTICOID
+  YES                        260.0    465.0
+  NO                         405.0    474.0
+  [total]                    665.0    939.0
+
+ABDOMINAL
+  NO                         661.0    930.0
+  Y                            4.0      9.0
+  [total]                    665.0    939.0
+
+TESTO
+  mean                      0.6834   1.1253
+  std. dev.                 0.7799   4.8956
+  weight sum                   457      288
+  precision                 0.3026   0.3026
+
+MHINVEST
+  NO                         596.0    875.0
+  YES                         69.0     64.0
+  [total]                    665.0    939.0
+
+TPRO
+  mean                     71.8989  70.7602
+  std. dev.                 6.2403   5.7031
+  weight sum                   505      591
+  precision                  0.563    0.563
+
+BLADDER
+  NO                         652.0    928.0
+  Y                           13.0     11.0
+  [total]                    665.0    939.0
+
+LYMPHADENECTOMY
+  NO                         590.0    868.0
+  Y                           75.0     71.0
+  [total]                    665.0    939.0
+
+MI
+  NO                         619.0    897.0
+  Y                           46.0     42.0
+  [total]                    665.0    939.0
+
+ORCHIDECTOMY
+  NO                         531.0    802.0
+  Y                          134.0    137.0
+  [total]                    665.0    939.0
+
+ANALGESICS
+  YES                        236.0    262.0
+  NO                         429.0    677.0
+  [total]                    665.0    939.0
+
+REGION_C
+  WESTERN EUROPE             195.0    266.0
+  EASTERN EUROPE             111.0    102.0
+  NORTH AMERICA               87.0    134.0
+  OTHER                       74.0     71.0
+  SOUTH AMERICA               61.0     27.0
+  [total]                    528.0    600.0
+
+GONADOTROPIN
+  YES                        569.0    840.0
+  NO                          96.0     99.0
+  [total]                    665.0    939.0
+
+ANTI_ANDROGENS
+  YES                        609.0    834.0
+  NO                          56.0    105.0
+  [total]                    665.0    939.0
+
+RBC
+  mean                      3.9546   4.2222
+  std. dev.                 0.5113   0.4855
+  weight sum                    89      427
+  precision                 0.0185   0.0185
+
+MHCARD
+  NO                         532.0    791.0
+  YES                        133.0    148.0
+  [total]                    665.0    939.0
+
+PLEURA
+  NO                         650.0    924.0
+  Y                           15.0     15.0
+  [total]                    665.0    939.0
+
+PULMEMB
+  NO                         653.0    927.0
+  Y                           12.0     12.0
+  [total]                    665.0    939.0
+
+MHINFECT
+  NO                         595.0    863.0
+  YES                         70.0     76.0
+  [total]                    665.0    939.0
+
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1142               71.375  %
+Incorrectly Classified Instances       458               28.625  %
+Kappa statistic                          0.4092
+Mean absolute error                      0.3085
+Root mean squared error                  0.4738
+Relative absolute error                 63.5605 %
+Root relative squared error             96.1803 %
+Coverage of cases (0.95 level)          91.0625 %
+Mean rel. region size (0.95 level)      77.2188 %
+Total Number of Instances             1600     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.649    0.240    0.656      0.649    0.653      0.409    0.768     0.656     YES
+                 0.760    0.351    0.753      0.760    0.757      0.409    0.768     0.797     NO
+Weighted Avg.    0.714    0.305    0.713      0.714    0.713      0.409    0.768     0.739     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 430 233 |   a = YES
+ 225 712 |   b = NO
+

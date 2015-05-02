@@ -1,0 +1,258 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     CoreTable_training_edited_with_month_deaths-weka.filters.unsupervised.attribute.Remove-R1-4,6-16_principal components-weka.filters.unsupervised.attribute.PrincipalComponents-R0.95-A5-M30
+Instances:    1600
+Attributes:   31
+              0.291NON_TARGET-0.239REGION_C=WESTERN EUROPE+0.239MHMUSCLE+0.221MHVASC+0.216REGION_C=NORTH AMERICA...
+              0.321BILATERAL_ORCHIDECTOMY+0.287ORCHIDECTOMY+0.267REGION_C=EASTERN EUROPE+0.247GONADOTROPIN-0.219REGION_C=WESTERN EUROPE...
+              -0.371AGEGRP+0.302WEIGHTBL+0.3  AGEGRP2=18-64-0.298AGEGRP2=>=75+0.257BMI...
+              0.251HB+0.231ANALGESICS-0.214ALP+0.212RBC-0.191AGEGRP2=18-64...
+              -0.433WBC-0.416NEU-0.284PLT-0.186CREAT-0.174GLU...
+              -0.297AST-0.248ALT-0.228WEIGHTBL-0.219RACE_C=White-0.202BMI...
+              0.331RACE_C=White+0.241TARGET-0.238ORCHIDECTOMY-0.235RACE_C=Black+0.208LYMPH_NODES...
+              -0.341RACE_C=White-0.23NEU-0.219WBC+0.218DIAB+0.188MHMETAB...
+              0.315AST+0.262ALT+0.241CREAT+0.19 TBILI-0.188MHNEOPLA...
+              0.319MHNEOPLA-0.317CORTICOSTEROID-0.266MHSOCIAL-0.2LYMPHADENECTOMY-0.192REGION_C=SOUTH AMERICA...
+              0.271BONE+0.229ORCHIDECTOMY+0.227LYMPH_NODES-0.225REGION_C=OTHER+0.214GONADOTROPIN...
+              0.389AGEGRP2=65-74-0.233LYMPH_NODES-0.221AGEGRP2=18-64-0.211AGEGRP2=>=75-0.195TARGET...
+              0.285AGEGRP2=65-74-0.241REGION_C=SOUTH AMERICA-0.226AGEGRP2=>=75+0.192AST-0.192GLUCOCORTICOID...
+              0.37 MHNERV+0.325CEREBACC+0.208SPINCOMP+0.198PROSTATECTOMY+0.189ANTI_ANDROGENS...
+              -0.311REGION_C=OTHER-0.271AGEGRP2=65-74-0.229RACE_C=Asian+0.214LYMPHADENECTOMY+0.206AGEGRP2=18-64...
+              0.229AGEGRP2=>=75-0.207CREAT+0.199MHMETAB+0.186DIAB+0.185AST...
+              0.227RACE_C=Missing-0.223DIAB+0.214ESTROGENS-0.212MHGASTRO+0.206ANTI_ESTROGENS...
+              0.267MHRESP+0.264DVT+0.24 PULMEMB+0.204LYM-0.181MI...
+              0.3  PULMEMB-0.242CORTICOSTEROID-0.214MHCARD+0.206GLUCOCORTICOID+0.203MHRESP...
+              -0.261MHGASTRO+0.203PROSTATECTOMY-0.203REGION_C=SOUTH AMERICA-0.201GASTREFL-0.189ESTROGENS...
+              -0.285RACE_C=Black+0.281CEREBACC+0.273MHNERV-0.271PSA-0.183PATHFRAC...
+              0.244BLADDER+0.24 PROSTATECTOMY-0.223COLON+0.209RECTAL-0.206TURP...
+              0.318ANTI_ESTROGENS+0.267ESTROGENS+0.256CREACLCA-0.228PLEURA-0.205PERITONEUM...
+              -0.241MI-0.199LUNGS-0.184RACE_C=Other+0.18 AGEGRP2=>=75+0.175MHINJURY...
+              -0.259MHCONGEN-0.222ESTROGENS-0.214GLUCOCORTICOID-0.197ANTI_ESTROGENS-0.195OTHER...
+              -0.299RECTAL-0.285BLADDER-0.226PRIOR_RADIOTHERAPY+0.224LUNGS+0.224LIVER...
+              0.288PATHFRAC+0.271ADRENAL+0.248MHHEPATO-0.223MHEAR-0.214BLADDER...
+              0.293COPD+0.254RECTAL-0.216ARTTHROM+0.206SPINCOMP-0.201ALP...
+              -0.222GLU-0.217ANTI_ANDROGENS+0.191RACE_C=Hispanic+0.19 NA.-0.19MHCONGEN...
+              -0.234PUD+0.229PATHFRAC+0.228MHEAR+0.207PSA+0.196GLU...
+              DEATH
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                                                                                                                 Class
+Attribute                                                                                                                          YES      NO
+                                                                                                                                (0.41)  (0.59)
+===============================================================================================================================================
+0.291NON_TARGET-0.239REGION_C=WESTERN EUROPE+0.239MHMUSCLE+0.221MHVASC+0.216REGION_C=NORTH AMERICA...
+  mean                                                                                                                           0.3553 -0.2515
+  std. dev.                                                                                                                      2.2869  2.4612
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0084  0.0084
+
+0.321BILATERAL_ORCHIDECTOMY+0.287ORCHIDECTOMY+0.267REGION_C=EASTERN EUROPE+0.247GONADOTROPIN-0.219REGION_C=WESTERN EUROPE...
+  mean                                                                                                                           0.4123 -0.2917
+  std. dev.                                                                                                                      2.1889  1.8258
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0076  0.0076
+
+-0.371AGEGRP+0.302WEIGHTBL+0.3  AGEGRP2=18-64-0.298AGEGRP2=>=75+0.257BMI...
+  mean                                                                                                                          -0.3237   0.229
+  std. dev.                                                                                                                      1.9544  1.7643
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0083  0.0083
+
+0.251HB+0.231ANALGESICS-0.214ALP+0.212RBC-0.191AGEGRP2=18-64...
+  mean                                                                                                                          -0.1798  0.1273
+  std. dev.                                                                                                                      1.7911  1.7134
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0087  0.0087
+
+-0.433WBC-0.416NEU-0.284PLT-0.186CREAT-0.174GLU...
+  mean                                                                                                                           0.1171  -0.083
+  std. dev.                                                                                                                      1.6667  1.5918
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0088  0.0088
+
+-0.297AST-0.248ALT-0.228WEIGHTBL-0.219RACE_C=White-0.202BMI...
+  mean                                                                                                                          -0.3573  0.2529
+  std. dev.                                                                                                                      1.6279   1.487
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0122  0.0122
+
+0.331RACE_C=White+0.241TARGET-0.238ORCHIDECTOMY-0.235RACE_C=Black+0.208LYMPH_NODES...
+  mean                                                                                                                           0.0595 -0.0423
+  std. dev.                                                                                                                      1.5426  1.5071
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0084  0.0084
+
+-0.341RACE_C=White-0.23NEU-0.219WBC+0.218DIAB+0.188MHMETAB...
+  mean                                                                                                                          -0.0073  0.0052
+  std. dev.                                                                                                                      1.5001  1.4537
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0076  0.0076
+
+0.315AST+0.262ALT+0.241CREAT+0.19 TBILI-0.188MHNEOPLA...
+  mean                                                                                                                           0.2062 -0.1458
+  std. dev.                                                                                                                      1.5616  1.3198
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0121  0.0121
+
+0.319MHNEOPLA-0.317CORTICOSTEROID-0.266MHSOCIAL-0.2LYMPHADENECTOMY-0.192REGION_C=SOUTH AMERICA...
+  mean                                                                                                                          -0.3642  0.2577
+  std. dev.                                                                                                                      1.5068  1.2694
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0066  0.0066
+
+0.271BONE+0.229ORCHIDECTOMY+0.227LYMPH_NODES-0.225REGION_C=OTHER+0.214GONADOTROPIN...
+  mean                                                                                                                          -0.0157  0.0113
+  std. dev.                                                                                                                      1.4555  1.2949
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0078  0.0078
+
+0.389AGEGRP2=65-74-0.233LYMPH_NODES-0.221AGEGRP2=18-64-0.211AGEGRP2=>=75-0.195TARGET...
+  mean                                                                                                                           -0.162  0.1148
+  std. dev.                                                                                                                      1.3367  1.3075
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0064  0.0064
+
+0.285AGEGRP2=65-74-0.241REGION_C=SOUTH AMERICA-0.226AGEGRP2=>=75+0.192AST-0.192GLUCOCORTICOID...
+  mean                                                                                                                          -0.0404  0.0285
+  std. dev.                                                                                                                      1.4024  1.2368
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0084  0.0084
+
+0.37 MHNERV+0.325CEREBACC+0.208SPINCOMP+0.198PROSTATECTOMY+0.189ANTI_ANDROGENS...
+  mean                                                                                                                          -0.0566  0.0399
+  std. dev.                                                                                                                      1.3636  1.2057
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0065  0.0065
+
+-0.311REGION_C=OTHER-0.271AGEGRP2=65-74-0.229RACE_C=Asian+0.214LYMPHADENECTOMY+0.206AGEGRP2=18-64...
+  mean                                                                                                                           0.0063 -0.0044
+  std. dev.                                                                                                                      1.3374  1.2028
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0059  0.0059
+
+0.229AGEGRP2=>=75-0.207CREAT+0.199MHMETAB+0.186DIAB+0.185AST...
+  mean                                                                                                                          -0.0753  0.0534
+  std. dev.                                                                                                                      1.2619  1.2418
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0075  0.0075
+
+0.227RACE_C=Missing-0.223DIAB+0.214ESTROGENS-0.212MHGASTRO+0.206ANTI_ESTROGENS...
+  mean                                                                                                                          -0.0004  0.0003
+  std. dev.                                                                                                                      1.3099  1.2021
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0063  0.0063
+
+0.267MHRESP+0.264DVT+0.24 PULMEMB+0.204LYM-0.181MI...
+  mean                                                                                                                           0.0204 -0.0144
+  std. dev.                                                                                                                      1.2968  1.1788
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0066  0.0066
+
+0.3  PULMEMB-0.242CORTICOSTEROID-0.214MHCARD+0.206GLUCOCORTICOID+0.203MHRESP...
+  mean                                                                                                                           0.0203 -0.0144
+  std. dev.                                                                                                                      1.2623  1.1769
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0068  0.0068
+
+-0.261MHGASTRO+0.203PROSTATECTOMY-0.203REGION_C=SOUTH AMERICA-0.201GASTREFL-0.189ESTROGENS...
+  mean                                                                                                                           0.0474 -0.0335
+  std. dev.                                                                                                                      1.2615  1.1485
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                       0.006   0.006
+
+-0.285RACE_C=Black+0.281CEREBACC+0.273MHNERV-0.271PSA-0.183PATHFRAC...
+  mean                                                                                                                          -0.0617  0.0437
+  std. dev.                                                                                                                      1.2013  1.1569
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0068  0.0068
+
+0.244BLADDER+0.24 PROSTATECTOMY-0.223COLON+0.209RECTAL-0.206TURP...
+  mean                                                                                                                          -0.1198  0.0849
+  std. dev.                                                                                                                      1.2215  1.1268
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0109  0.0109
+
+0.318ANTI_ESTROGENS+0.267ESTROGENS+0.256CREACLCA-0.228PLEURA-0.205PERITONEUM...
+  mean                                                                                                                          -0.1234  0.0875
+  std. dev.                                                                                                                      1.2963  1.0538
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0094  0.0094
+
+-0.241MI-0.199LUNGS-0.184RACE_C=Other+0.18 AGEGRP2=>=75+0.175MHINJURY...
+  mean                                                                                                                           0.0644 -0.0456
+  std. dev.                                                                                                                      1.1825  1.1228
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0063  0.0063
+
+-0.259MHCONGEN-0.222ESTROGENS-0.214GLUCOCORTICOID-0.197ANTI_ESTROGENS-0.195OTHER...
+  mean                                                                                                                          -0.0284  0.0201
+  std. dev.                                                                                                                      1.1869   1.119
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0063  0.0063
+
+-0.299RECTAL-0.285BLADDER-0.226PRIOR_RADIOTHERAPY+0.224LUNGS+0.224LIVER...
+  mean                                                                                                                          -0.0821   0.058
+  std. dev.                                                                                                                      1.2051  1.0731
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                       0.009   0.009
+
+0.288PATHFRAC+0.271ADRENAL+0.248MHHEPATO-0.223MHEAR-0.214BLADDER...
+  mean                                                                                                                          -0.0035  0.0025
+  std. dev.                                                                                                                      1.1831  1.0604
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0082  0.0082
+
+0.293COPD+0.254RECTAL-0.216ARTTHROM+0.206SPINCOMP-0.201ALP...
+  mean                                                                                                                          -0.0697  0.0493
+  std. dev.                                                                                                                      1.1073  1.1118
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                       0.008   0.008
+
+-0.222GLU-0.217ANTI_ANDROGENS+0.191RACE_C=Hispanic+0.19 NA.-0.19MHCONGEN...
+  mean                                                                                                                          -0.0509   0.036
+  std. dev.                                                                                                                      1.1044  1.1027
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0069  0.0069
+
+-0.234PUD+0.229PATHFRAC+0.228MHEAR+0.207PSA+0.196GLU...
+  mean                                                                                                                          -0.1394  0.0987
+  std. dev.                                                                                                                      1.1168  1.0773
+  weight sum                                                                                                                        663     937
+  precision                                                                                                                      0.0065  0.0065
+
+
+
+Time taken to build model: 0.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1040               65      %
+Incorrectly Classified Instances       560               35      %
+Kappa statistic                          0.2576
+Mean absolute error                      0.3871
+Root mean squared error                  0.4974
+Relative absolute error                 79.7484 %
+Root relative squared error            100.9643 %
+Coverage of cases (0.95 level)          96.25   %
+Mean rel. region size (0.95 level)      93.3438 %
+Total Number of Instances             1600     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.480    0.229    0.597      0.480    0.532      0.261    0.689     0.570     YES
+                 0.771    0.520    0.677      0.771    0.721      0.261    0.689     0.753     NO
+Weighted Avg.    0.650    0.400    0.643      0.650    0.642      0.261    0.689     0.677     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 318 345 |   a = YES
+ 215 722 |   b = NO
+
