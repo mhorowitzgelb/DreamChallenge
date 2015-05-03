@@ -1,0 +1,155 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007"
+Relation:     CoreTable_training_edited_with_month_deaths-weka.filters.unsupervised.attribute.Remove-R1-4,6-16-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-V-R106,112,71,13,51,34,49,22,15,30,64,18,45,3,84,38,48,39,113,19,16,77,4,23,6,61,28,40,9,27,63,54,68,58,24,103,31,50,62,85,59,66,7,69,67,1
+Instances:    1600
+Attributes:   46
+              MHNEOPLA
+              MHSOCIAL
+              CORTICOSTEROID
+              ALP
+              PERITONEUM
+              BUN
+              ADRENAL
+              PSA
+              AST
+              ALB
+              BILATERAL_ORCHIDECTOMY
+              HB
+              LIVER
+              RACE_C
+              GIBLEED
+              NON_TARGET
+              PROSTATE
+              TARGET
+              MHSURG
+              LDH
+              CA
+              ANTI_ESTROGENS
+              BMI
+              TBILI
+              WEIGHTBL
+              TURP
+              MG
+              BONE
+              ECOG_C
+              NA.
+              SPINAL_CORD_SURGERY
+              SOFT_TISSUE
+              GLUCOCORTICOID
+              ABDOMINAL
+              TESTO
+              MHINVEST
+              TPRO
+              BLADDER
+              LYMPHADENECTOMY
+              MI
+              ORCHIDECTOMY
+              ANALGESICS
+              REGION_C
+              GONADOTROPIN
+              ANTI_ANDROGENS
+              DEATH
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: YES, NO
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.9996 * (normalized) MHNEOPLA
+ +      -0.0006 * (normalized) MHSOCIAL
+ +      -0.0007 * (normalized) CORTICOSTEROID
+ +      -0.0003 * (normalized) ALP
+ +      -0.0014 * (normalized) PERITONEUM
+ +       0.0003 * (normalized) BUN
+ +      -0.0007 * (normalized) ADRENAL
+ +       0.0006 * (normalized) PSA
+ +      -0.0161 * (normalized) AST
+ +       0.0029 * (normalized) ALB
+ +      -0.0005 * (normalized) BILATERAL_ORCHIDECTOMY
+ +       0.0028 * (normalized) HB
+ +      -0.0005 * (normalized) LIVER
+ +      -0.0001 * (normalized) RACE_C=Black
+ +      -0.0005 * (normalized) RACE_C=White
+ +       0.0015 * (normalized) RACE_C=Other
+ +      -0.0002 * (normalized) RACE_C=Hispanic
+ +      -0.0006 * (normalized) RACE_C=Asian
+ +      -0.0001 * (normalized) RACE_C=Missing
+ +      -0.0003 * (normalized) GIBLEED
+ +      -1.9986 * (normalized) NON_TARGET
+ +      -0.0003 * (normalized) PROSTATE
+ +      -0.0007 * (normalized) TARGET
+ +      -0.0007 * (normalized) MHSURG
+ +       0.0016 * (normalized) LDH
+ +      -0.0001 * (normalized) CA
+ +       0.0023 * (normalized) ANTI_ESTROGENS
+ +       0.001  * (normalized) BMI
+ +       0      * (normalized) TBILI
+ +      -0.0002 * (normalized) WEIGHTBL
+ +      -0.0011 * (normalized) TURP
+ +      -0.0468 * (normalized) MG
+ +      -0.0002 * (normalized) BONE
+ +      -0.0009 * (normalized) ECOG_C
+ +      -0.002  * (normalized) NA.
+ +       0.0009 * (normalized) SOFT_TISSUE
+ +      -0.0004 * (normalized) GLUCOCORTICOID
+ +      -0.0001 * (normalized) ABDOMINAL
+ +       0.0012 * (normalized) TESTO
+ +       0.0002 * (normalized) MHINVEST
+ +      -0.0015 * (normalized) TPRO
+ +      -0.0002 * (normalized) BLADDER
+ +      -0.0001 * (normalized) LYMPHADENECTOMY
+ +      -0.0004 * (normalized) MI
+ +       0.0002 * (normalized) ORCHIDECTOMY
+ +       0.0001 * (normalized) ANALGESICS
+ +      -0.0001 * (normalized) REGION_C=WESTERN EUROPE
+ +       0.0001 * (normalized) REGION_C=EASTERN EUROPE
+ +      -0.0001 * (normalized) REGION_C=NORTH AMERICA
+ +       0.0001 * (normalized) REGION_C=OTHER
+ +      -0.0001 * (normalized) REGION_C=SOUTH AMERICA
+ +       0      * (normalized) GONADOTROPIN
+ +       0.0003 * (normalized) ANTI_ANDROGENS
+ +       1.0023
+
+Number of kernel evaluations: 1023313 (96.748% cached)
+
+
+
+Time taken to build model: 1.98 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1184               74      %
+Incorrectly Classified Instances       416               26      %
+Kappa statistic                          0.4462
+Mean absolute error                      0.26  
+Root mean squared error                  0.5099
+Relative absolute error                 53.5686 %
+Root relative squared error            103.5091 %
+Coverage of cases (0.95 level)          74      %
+Mean rel. region size (0.95 level)      50      %
+Total Number of Instances             1600     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.575    0.143    0.740      0.575    0.647      0.455    0.716     0.601     YES
+                 0.857    0.425    0.740      0.857    0.794      0.455    0.716     0.718     NO
+Weighted Avg.    0.740    0.308    0.740      0.740    0.733      0.455    0.716     0.670     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 381 282 |   a = YES
+ 134 803 |   b = NO
+

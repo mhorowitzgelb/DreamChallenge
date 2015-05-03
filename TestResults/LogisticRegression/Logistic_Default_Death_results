@@ -1,0 +1,290 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1
+Relation:     CoreTable_training_edited_with_month_deaths-weka.filters.unsupervised.attribute.Remove-R1-4,6-16
+Instances:    1600
+Attributes:   115
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                             Class
+Variable                       YES
+==================================
+AGEGRP                      0.0248
+AGEGRP2=65-74              -0.1637
+AGEGRP2=>=75               -0.2499
+AGEGRP2=18-64               0.4013
+RACE_C=Black               -0.1506
+RACE_C=White                0.2252
+RACE_C=Other               -1.0752
+RACE_C=Hispanic             0.3461
+RACE_C=Asian                0.2454
+RACE_C=Missing             -0.3306
+BMI                        -0.1977
+HEIGHTBL                   -0.0536
+WEIGHTBL                    0.0573
+REGION_C=WESTERN EUROPE    -0.0687
+REGION_C=EASTERN EUROPE     0.0939
+REGION_C=NORTH AMERICA      0.0737
+REGION_C=OTHER             -0.2585
+REGION_C=SOUTH AMERICA      0.3581
+SMOKE                       0.0641
+ECOG_C                      0.2815
+ALP                         0.0005
+ALT                        -0.0062
+AST                         0.0309
+CA                          0.1795
+CREAT                       0.0012
+HB                          -0.179
+LDH                        -0.0004
+NEU                         0.2169
+PLT                          0.001
+PSA                              0
+TBILI                       0.0093
+TESTO                      -0.0419
+WBC                        -0.1635
+CREACL                      0.0007
+NA.                         0.0149
+MG                         -0.2145
+PHOS                       -0.1038
+ALB                        -0.1007
+TPRO                         0.016
+RBC                         -0.082
+LYM                         0.1438
+BUN                         0.0039
+CCRC                         0.004
+GLU                        -0.0833
+CREACLCA                    0.0148
+NON_TARGET                   1.243
+TARGET                      0.5143
+BONE                        0.1266
+RECTAL                     -0.6873
+LYMPH_NODES                -0.0307
+KIDNEYS                     0.7027
+LUNGS                      -0.4817
+LIVER                       0.6448
+PLEURA                     -0.5694
+OTHER                       0.0798
+PROSTATE                   -0.0129
+ADRENAL                     1.0324
+BLADDER                     0.7583
+PERITONEUM                  1.2575
+COLON                       0.9669
+SOFT_TISSUE                -0.9659
+ABDOMINAL                   0.2777
+ORCHIDECTOMY               -0.0493
+PROSTATECTOMY              -0.1219
+TURP                        0.7422
+LYMPHADENECTOMY               0.19
+SPINAL_CORD_SURGERY         0.0119
+BILATERAL_ORCHIDECTOMY      -0.231
+PRIOR_RADIOTHERAPY          0.0958
+ANALGESICS                 -0.2207
+ANTI_ANDROGENS             -0.4774
+GLUCOCORTICOID              0.3427
+GONADOTROPIN                0.2662
+BISPHOSPHONATE             -0.1855
+CORTICOSTEROID               0.628
+IMIDAZOLE                  -0.0555
+ACE_INHIBITORS             -0.3164
+BETA_BLOCKING              -0.1339
+HMG_COA_REDUCT             -0.0003
+ESTROGENS                  -0.5035
+ANTI_ESTROGENS             -0.7995
+ARTTHROM                    0.7043
+CEREBACC                    0.1516
+CHF                        -0.1653
+DVT                        -0.0695
+DIAB                         0.052
+GASTREFL                    0.1785
+GIBLEED                     1.0005
+MI                          0.4402
+PUD                         -0.193
+PULMEMB                     0.3794
+PATHFRAC                     0.394
+SPINCOMP                    -0.688
+COPD                       -0.3289
+MHBLOOD                     0.1592
+MHCARD                      0.4726
+MHCONGEN                     -0.35
+MHEAR                      -0.0441
+MHENDO                     -0.4283
+MHEYE                      -0.1515
+MHGASTRO                   -0.0459
+MHGEN                      -0.1033
+MHHEPATO                   -0.2111
+MHIMMUNE                   -0.0362
+MHINFECT                    0.1619
+MHINJURY                   -0.1337
+MHINVEST                    0.1315
+MHMETAB                     0.1128
+MHMUSCLE                   -0.3462
+MHNEOPLA                   -2.2882
+MHNERV                     -0.1259
+MHPSYCH                     0.7214
+MHRENAL                     0.1417
+MHRESP                     -0.0554
+MHSKIN                     -0.1944
+MHSOCIAL                    0.5064
+MHSURG                       0.114
+MHVASC                     -0.0843
+Intercept                   8.3363
+
+
+Odds Ratios...
+                             Class
+Variable                       YES
+==================================
+AGEGRP                      1.0251
+AGEGRP2=65-74                0.849
+AGEGRP2=>=75                0.7789
+AGEGRP2=18-64               1.4938
+RACE_C=Black                0.8602
+RACE_C=White                1.2525
+RACE_C=Other                0.3412
+RACE_C=Hispanic             1.4135
+RACE_C=Asian                1.2782
+RACE_C=Missing              0.7185
+BMI                         0.8206
+HEIGHTBL                    0.9478
+WEIGHTBL                     1.059
+REGION_C=WESTERN EUROPE     0.9336
+REGION_C=EASTERN EUROPE     1.0985
+REGION_C=NORTH AMERICA      1.0765
+REGION_C=OTHER              0.7722
+REGION_C=SOUTH AMERICA      1.4306
+SMOKE                       1.0662
+ECOG_C                      1.3252
+ALP                         1.0005
+ALT                         0.9938
+AST                         1.0314
+CA                          1.1967
+CREAT                       1.0012
+HB                          0.8361
+LDH                         0.9996
+NEU                         1.2422
+PLT                          1.001
+PSA                              1
+TBILI                       1.0093
+TESTO                        0.959
+WBC                         0.8492
+CREACL                      1.0007
+NA.                          1.015
+MG                           0.807
+PHOS                        0.9014
+ALB                         0.9042
+TPRO                        1.0162
+RBC                         0.9213
+LYM                         1.1546
+BUN                         1.0039
+CCRC                         1.004
+GLU                         0.9201
+CREACLCA                     1.015
+NON_TARGET                  3.4658
+TARGET                      1.6725
+BONE                         1.135
+RECTAL                      0.5029
+LYMPH_NODES                 0.9698
+KIDNEYS                     2.0192
+LUNGS                       0.6177
+LIVER                       1.9056
+PLEURA                      0.5659
+OTHER                       1.0831
+PROSTATE                    0.9872
+ADRENAL                     2.8077
+BLADDER                     2.1346
+PERITONEUM                  3.5165
+COLON                       2.6298
+SOFT_TISSUE                 0.3806
+ABDOMINAL                   1.3201
+ORCHIDECTOMY                0.9519
+PROSTATECTOMY               0.8852
+TURP                        2.1006
+LYMPHADENECTOMY             1.2092
+SPINAL_CORD_SURGERY          1.012
+BILATERAL_ORCHIDECTOMY      0.7937
+PRIOR_RADIOTHERAPY          1.1006
+ANALGESICS                   0.802
+ANTI_ANDROGENS              0.6204
+GLUCOCORTICOID              1.4087
+GONADOTROPIN                 1.305
+BISPHOSPHONATE              0.8307
+CORTICOSTEROID              1.8739
+IMIDAZOLE                    0.946
+ACE_INHIBITORS              0.7288
+BETA_BLOCKING               0.8747
+HMG_COA_REDUCT              0.9997
+ESTROGENS                   0.6044
+ANTI_ESTROGENS              0.4496
+ARTTHROM                    2.0224
+CEREBACC                    1.1637
+CHF                         0.8476
+DVT                         0.9329
+DIAB                        1.0534
+GASTREFL                    1.1954
+GIBLEED                     2.7197
+MI                           1.553
+PUD                         0.8245
+PULMEMB                     1.4614
+PATHFRAC                    1.4829
+SPINCOMP                    0.5026
+COPD                        0.7197
+MHBLOOD                     1.1725
+MHCARD                      1.6041
+MHCONGEN                    0.7047
+MHEAR                       0.9568
+MHENDO                      0.6516
+MHEYE                       0.8594
+MHGASTRO                    0.9551
+MHGEN                       0.9019
+MHHEPATO                    0.8097
+MHIMMUNE                    0.9645
+MHINFECT                    1.1758
+MHINJURY                    0.8748
+MHINVEST                    1.1406
+MHMETAB                     1.1194
+MHMUSCLE                    0.7073
+MHNEOPLA                    0.1015
+MHNERV                      0.8817
+MHPSYCH                     2.0573
+MHRENAL                     1.1523
+MHRESP                      0.9461
+MHSKIN                      0.8233
+MHSOCIAL                    1.6593
+MHSURG                      1.1207
+MHVASC                      0.9192
+
+
+Time taken to build model: 0.64 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1147               71.6875 %
+Incorrectly Classified Instances       453               28.3125 %
+Kappa statistic                          0.4066
+Mean absolute error                      0.3503
+Root mean squared error                  0.4409
+Relative absolute error                 72.1674 %
+Root relative squared error             89.5034 %
+Coverage of cases (0.95 level)          98.6875 %
+Mean rel. region size (0.95 level)      94.6875 %
+Total Number of Instances             1600     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.600    0.201    0.679      0.600    0.637      0.409    0.769     0.699     YES
+                 0.799    0.400    0.739      0.799    0.768      0.409    0.769     0.790     NO
+Weighted Avg.    0.717    0.317    0.714      0.717    0.714      0.409    0.769     0.752     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 398 265 |   a = YES
+ 188 749 |   b = NO
+

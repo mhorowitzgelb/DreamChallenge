@@ -1,0 +1,172 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007"
+Relation:     CoreTable_training_edited_with_month_deaths-weka.filters.unsupervised.attribute.Remove-R1-4,6-16-weka.filters.unsupervised.attribute.Remove-R3
+Instances:    1600
+Attributes:   114
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: YES, NO
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0303 * (normalized) AGEGRP
+ +      -0.0009 * (normalized) RACE_C=Black
+ +      -0.0441 * (normalized) RACE_C=White
+ +       0.1152 * (normalized) RACE_C=Other
+ +       0.0055 * (normalized) RACE_C=Hispanic
+ +      -0.0649 * (normalized) RACE_C=Asian
+ +      -0.0107 * (normalized) RACE_C=Missing
+ +       0.2602 * (normalized) BMI
+ +       0.1053 * (normalized) HEIGHTBL
+ +      -0.1753 * (normalized) WEIGHTBL
+ +      -0.0017 * (normalized) REGION_C=WESTERN EUROPE
+ +      -0.015  * (normalized) REGION_C=EASTERN EUROPE
+ +      -0.001  * (normalized) REGION_C=NORTH AMERICA
+ +       0.0319 * (normalized) REGION_C=OTHER
+ +      -0.0142 * (normalized) REGION_C=SOUTH AMERICA
+ +       0.016  * (normalized) SMOKE
+ +      -0.0404 * (normalized) ECOG_C
+ +      -0.1136 * (normalized) ALP
+ +      -0.0918 * (normalized) ALT
+ +      -1.0703 * (normalized) AST
+ +       0.0587 * (normalized) CA
+ +      -0.2394 * (normalized) CREAT
+ +       0.2538 * (normalized) HB
+ +       0.0416 * (normalized) LDH
+ +      -0.3418 * (normalized) NEU
+ +      -0.1251 * (normalized) PLT
+ +      -0.0285 * (normalized) PSA
+ +      -0.0731 * (normalized) TBILI
+ +       0.0405 * (normalized) TESTO
+ +       0.2427 * (normalized) WBC
+ +       0.0289 * (normalized) CREACL
+ +      -0.0041 * (normalized) NA.
+ +      -0.1883 * (normalized) MG
+ +      -0.0624 * (normalized) PHOS
+ +       0.3306 * (normalized) ALB
+ +      -0.1089 * (normalized) TPRO
+ +       0.0205 * (normalized) RBC
+ +      -0.0103 * (normalized) LYM
+ +      -0.0532 * (normalized) BUN
+ +      -0.0817 * (normalized) CCRC
+ +       0.3127 * (normalized) GLU
+ +      -0.1647 * (normalized) CREACLCA
+ +      -1.8732 * (normalized) NON_TARGET
+ +      -0.0587 * (normalized) TARGET
+ +      -0.0096 * (normalized) BONE
+ +       0.0284 * (normalized) RECTAL
+ +       0.0147 * (normalized) LYMPH_NODES
+ +      -0.0669 * (normalized) KIDNEYS
+ +       0.0512 * (normalized) LUNGS
+ +      -0.0916 * (normalized) LIVER
+ +       0.1065 * (normalized) PLEURA
+ +      -0.0331 * (normalized) OTHER
+ +      -0.0043 * (normalized) PROSTATE
+ +      -0.0969 * (normalized) ADRENAL
+ +      -0.0897 * (normalized) BLADDER
+ +      -0.1603 * (normalized) PERITONEUM
+ +      -0.0494 * (normalized) COLON
+ +       0.0858 * (normalized) SOFT_TISSUE
+ +      -0.0277 * (normalized) ABDOMINAL
+ +       0.0242 * (normalized) ORCHIDECTOMY
+ +       0.0081 * (normalized) PROSTATECTOMY
+ +      -0.0934 * (normalized) TURP
+ +      -0.021  * (normalized) LYMPHADENECTOMY
+ +       0.0519 * (normalized) SPINAL_CORD_SURGERY
+ +      -0.023  * (normalized) BILATERAL_ORCHIDECTOMY
+ +      -0.0056 * (normalized) PRIOR_RADIOTHERAPY
+ +       0.0293 * (normalized) ANALGESICS
+ +       0.0491 * (normalized) ANTI_ANDROGENS
+ +      -0.0243 * (normalized) GLUCOCORTICOID
+ +      -0.0088 * (normalized) GONADOTROPIN
+ +       0.0295 * (normalized) BISPHOSPHONATE
+ +      -0.0808 * (normalized) CORTICOSTEROID
+ +       0.0053 * (normalized) IMIDAZOLE
+ +       0.0353 * (normalized) ACE_INHIBITORS
+ +       0.0113 * (normalized) BETA_BLOCKING
+ +       0.0016 * (normalized) HMG_COA_REDUCT
+ +       0.0408 * (normalized) ESTROGENS
+ +       0.1998 * (normalized) ANTI_ESTROGENS
+ +       0.0022 * (normalized) ARTTHROM
+ +      -0.0746 * (normalized) CEREBACC
+ +       0.0319 * (normalized) CHF
+ +      -0.01   * (normalized) DVT
+ +      -0.0104 * (normalized) DIAB
+ +       0.0025 * (normalized) GASTREFL
+ +      -0.0661 * (normalized) GIBLEED
+ +      -0.0258 * (normalized) MI
+ +      -0.0015 * (normalized) PUD
+ +       0.019  * (normalized) PULMEMB
+ +      -0.0193 * (normalized) PATHFRAC
+ +       0.0079 * (normalized) SPINCOMP
+ +       0.0007 * (normalized) COPD
+ +      -0.0185 * (normalized) MHBLOOD
+ +      -0.0603 * (normalized) MHCARD
+ +       0.0397 * (normalized) MHCONGEN
+ +      -0.0389 * (normalized) MHEAR
+ +       0.08   * (normalized) MHENDO
+ +       0.0285 * (normalized) MHEYE
+ +       0.0008 * (normalized) MHGASTRO
+ +       0.0065 * (normalized) MHGEN
+ +       0.0231 * (normalized) MHHEPATO
+ +      -0.0124 * (normalized) MHIMMUNE
+ +      -0.014  * (normalized) MHINFECT
+ +       0.005  * (normalized) MHINJURY
+ +       0.0003 * (normalized) MHINVEST
+ +      -0.0122 * (normalized) MHMETAB
+ +       0.0311 * (normalized) MHMUSCLE
+ +       1.9803 * (normalized) MHNEOPLA
+ +       0.0205 * (normalized) MHNERV
+ +      -0.0894 * (normalized) MHPSYCH
+ +      -0.0101 * (normalized) MHRENAL
+ +       0.0002 * (normalized) MHRESP
+ +       0.0345 * (normalized) MHSKIN
+ +      -0.0492 * (normalized) MHSOCIAL
+ +      -0.0224 * (normalized) MHSURG
+ +       0.0051 * (normalized) MHVASC
+ +       0.709 
+
+Number of kernel evaluations: 1791136 (94.923% cached)
+
+
+
+Time taken to build model: 2.54 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1186               74.125  %
+Incorrectly Classified Instances       414               25.875  %
+Kappa statistic                          0.4491
+Mean absolute error                      0.2588
+Root mean squared error                  0.5087
+Relative absolute error                 53.3111 %
+Root relative squared error            103.2599 %
+Coverage of cases (0.95 level)          74.125  %
+Mean rel. region size (0.95 level)      50      %
+Total Number of Instances             1600     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.578    0.143    0.741      0.578    0.649      0.458    0.717     0.603     YES
+                 0.857    0.422    0.741      0.857    0.795      0.458    0.717     0.719     NO
+Weighted Avg.    0.741    0.307    0.741      0.741    0.735      0.458    0.717     0.671     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 383 280 |   a = YES
+ 134 803 |   b = NO
+

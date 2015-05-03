@@ -1,0 +1,77 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8
+Relation:     CoreTable_training_edited_with_month_deaths-weka.filters.unsupervised.attribute.Remove-R1-3,5-12,14-16
+Instances:    1600
+Attributes:   116
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+LKADT_P =
+
+    348.2228 * LKADT_REF=RANDOMIZATION +
+     44.0456 * RACE_C=Black,Asian +
+     10.0131 * BMI +
+      2.5367 * HEIGHTBL +
+     -2.4506 * WEIGHTBL +
+    122.406  * REGION_C=NORTH AMERICA,WESTERN EUROPE,OTHER,SOUTH AMERICA +
+    -33.0406 * REGION_C=WESTERN EUROPE,OTHER,SOUTH AMERICA +
+    -49.0721 * REGION_C=SOUTH AMERICA +
+     36.1815 * SMOKE=YES +
+    -21.5505 * ECOG_C +
+     -0.0666 * ALP +
+      0.8931 * ALT +
+     -1.7792 * AST +
+     17.1549 * HB +
+      0.0581 * LDH +
+    -10.68   * NEU +
+     -4.6526 * TESTO +
+      3.6993 * WBC +
+      1.429  * CREACL +
+      6.2887 * NA. +
+     30.523  * PHOS +
+      3.1259 * ALB +
+    -57.7207 * RBC +
+      6.6859 * BUN +
+    -29.1761 * NON_TARGET=Y +
+    -33.545  * TARGET=Y +
+   -138.5022 * RECTAL=NO +
+     48.8741 * LIVER=NO +
+     76.6731 * PLEURA=NO +
+     44.6104 * PROSTATE=Y +
+    100.1506 * ADRENAL=NO +
+    360.929  * COLON=NO +
+     37.6669 * ANALGESICS=NO +
+    -22.988  * GLUCOCORTICOID=NO +
+     33.1144 * BISPHOSPHONATE=YES +
+     28.4421 * ACE_INHIBITORS=YES +
+     49.7218 * ESTROGENS=YES +
+   -143.4404 * ANTI_ESTROGENS=YES +
+     66.7066 * CHF=NO +
+     94.8167 * PATHFRAC=NO +
+     41.9989 * MHCARD=NO +
+     68.7115 * MHEYE=YES +
+     44.9471 * MHGEN=NO +
+     36.1738 * MHINVEST=YES +
+    -27.8933 * MHMUSCLE=NO +
+     22.594  * MHNEOPLA=NO +
+     47.3316 * MHRESP=NO +
+  -2110.8398
+
+Time taken to build model: 0.85 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.5606
+Mean absolute error                    186.4691
+Root mean squared error                241.0614
+Relative absolute error                 83.4418 %
+Root relative squared error             83.2187 %
+Total Number of Instances             1600     
+
