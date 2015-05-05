@@ -1,165 +1,148 @@
 === Run information ===
 
 Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.TAN -- -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
-Relation:     CoreTable_training_edited_with_month_deaths-weka.filters.unsupervised.attribute.Remove-R1-4,6-16-weka.filters.unsupervised.attribute.Remove-R3
+Relation:     CoreTable_training_edited_with_month_deaths-weka.filters.unsupervised.attribute.Remove-R1-4,6-16,18-weka.filters.unsupervised.attribute.Remove-V-R106,112,71,13,51,34,49,22,15,30,64,18,45,3,84,38,48,39,113,19,16,77,4,23,6,61,28,40,9,27,63,54,68,58,24,103,31,50,62,85,59,66,7,69,67,32,92,46,1
 Instances:    1600
-Attributes:   114
-              [list of attributes omitted]
+Attributes:   49
+              MHNEOPLA
+              MHSOCIAL
+              CORTICOSTEROID
+              ALP
+              PERITONEUM
+              BUN
+              ADRENAL
+              PSA
+              AST
+              ALB
+              BILATERAL_ORCHIDECTOMY
+              HB
+              LIVER
+              RACE_C
+              GIBLEED
+              NON_TARGET
+              PROSTATE
+              TARGET
+              MHSURG
+              LDH
+              CA
+              ANTI_ESTROGENS
+              BMI
+              TBILI
+              WEIGHTBL
+              TURP
+              MG
+              BONE
+              ECOG_C
+              NA.
+              SPINAL_CORD_SURGERY
+              SOFT_TISSUE
+              GLUCOCORTICOID
+              ABDOMINAL
+              TESTO
+              MHINVEST
+              TPRO
+              BLADDER
+              LYMPHADENECTOMY
+              MI
+              ORCHIDECTOMY
+              ANALGESICS
+              REGION_C
+              GONADOTROPIN
+              ANTI_ANDROGENS
+              RBC
+              MHCARD
+              PLEURA
+              DEATH
 Test mode:    10-fold cross-validation
 
 === Classifier model (full training set) ===
 
 Bayes Network Classifier
 not using ADTree
-#attributes=114 #classindex=113
+#attributes=49 #classindex=48
 Network structure (nodes followed by parents)
-DEATH(2): MHVASC MHNEOPLA 
-AGEGRP(1): MHVASC DEATH 
-RACE_C(6): MHVASC REGION_C 
-BMI(1): MHVASC DEATH 
-HEIGHTBL(1): MHVASC DEATH 
-WEIGHTBL(1): MHVASC DEATH 
-REGION_C(5): MHVASC BILATERAL_ORCHIDECTOMY 
-SMOKE(2): MHVASC NON_TARGET 
-ECOG_C(1): MHVASC DEATH 
-TRT1_ID(1): MHVASC DEATH 
-TRT2_ID(1): MHVASC DEATH 
-TRT3_ID(1): MHVASC DEATH 
-ALP(1): MHVASC DEATH 
-ALT(1): MHVASC DEATH 
-AST(1): MHVASC DEATH 
-CA(2): MHVASC MHNEOPLA 
-CREAT(1): MHVASC DEATH 
-HB(1): MHVASC DEATH 
-LDH(1): MHVASC DEATH 
-NEU(2): MHVASC GLU 
-PLT(1): MHVASC DEATH 
-PSA(1): MHVASC DEATH 
-TBILI(1): MHVASC DEATH 
-TESTO(2): MHVASC MHNEOPLA 
-WBC(1): MHVASC DEATH 
-CREACL(1): MHVASC DEATH 
-NA.(1): MHVASC DEATH 
-MG(1): MHVASC DEATH 
-PHOS(1): MHVASC DEATH 
-ALB(1): MHVASC DEATH 
-TPRO(1): MHVASC DEATH 
-RBC(1): MHVASC DEATH 
-LYM(1): MHVASC DEATH 
-BUN(1): MHVASC DEATH 
-CCRC(1): MHVASC DEATH 
-GLU(2): MHVASC NON_TARGET 
-CREACLCA(1): MHVASC DEATH 
-NON_TARGET(2): MHVASC REGION_C 
-TARGET(2): MHVASC NON_TARGET 
-BONE(2): MHVASC LYMPH_NODES 
-RECTAL(2): MHVASC BLADDER 
-LYMPH_NODES(2): MHVASC TARGET 
-KIDNEYS(2): MHVASC TARGET 
-LUNGS(2): MHVASC TARGET 
-LIVER(2): MHVASC TARGET 
-PLEURA(2): MHVASC LUNGS 
-OTHER(2): MHVASC BONE 
-PROSTATE(2): MHVASC REGION_C 
-ADRENAL(2): MHVASC TARGET 
-BLADDER(2): MHVASC TARGET 
-PERITONEUM(2): MHVASC REGION_C 
-COLON(2): MHVASC BONE 
-HEAD_AND_NECK(1): MHVASC DEATH 
-SOFT_TISSUE(2): MHVASC TARGET 
-STOMACH(1): MHVASC DEATH 
-PANCREAS(1): MHVASC DEATH 
-THYROID(1): MHVASC DEATH 
-ABDOMINAL(2): MHVASC MHNEOPLA 
-ORCHIDECTOMY(2): MHVASC 
-PROSTATECTOMY(2): MHVASC PROSTATE 
-TURP(2): MHVASC PROSTATECTOMY 
-LYMPHADENECTOMY(2): MHVASC PROSTATECTOMY 
-SPINAL_CORD_SURGERY(2): MHVASC MHNERV 
-BILATERAL_ORCHIDECTOMY(2): MHVASC ORCHIDECTOMY 
-PRIOR_RADIOTHERAPY(2): MHVASC PROSTATE 
-ANALGESICS(2): MHVASC MHMUSCLE 
-ANTI_ANDROGENS(2): MHVASC ORCHIDECTOMY 
-GLUCOCORTICOID(2): MHVASC CORTICOSTEROID 
-GONADOTROPIN(2): MHVASC ORCHIDECTOMY 
-BISPHOSPHONATE(2): MHVASC BONE 
-CORTICOSTEROID(2): MHVASC MHNEOPLA 
-IMIDAZOLE(2): MHVASC GLUCOCORTICOID 
-ACE_INHIBITORS(2): MHVASC NON_TARGET 
-BETA_BLOCKING(2): MHVASC NON_TARGET 
-HMG_COA_REDUCT(2): MHVASC BETA_BLOCKING 
-ESTROGENS(2): MHVASC REGION_C 
-ANTI_ESTROGENS(2): MHVASC ESTROGENS 
-ARTTHROM(2): MHVASC TARGET 
-CEREBACC(2): MHVASC MHNERV 
-CHF(2): MHVASC MHCARD 
-DVT(2): MHVASC NON_TARGET 
-DIAB(2): MHVASC MHMETAB 
-GASTREFL(2): MHVASC MHGASTRO 
-GIBLEED(2): MHVASC MHGASTRO 
-MI(2): MHVASC MHCARD 
-PUD(2): MHVASC MHGASTRO 
-PULMEMB(2): MHVASC MHRESP 
-PATHFRAC(2): MHVASC MHMUSCLE 
-SPINCOMP(2): MHVASC MHNERV 
-COPD(2): MHVASC MHRESP 
-MHBLOOD(2): MHVASC REGION_C 
-MHCARD(2): MHVASC BETA_BLOCKING 
-MHCONGEN(2): MHVASC MHINFECT 
-MHEAR(2): MHVASC MHPSYCH 
-MHENDO(2): MHVASC REGION_C 
-MHEYE(2): MHVASC NON_TARGET 
-MHGASTRO(2): MHVASC MHGEN 
-MHGEN(2): MHVASC MHMUSCLE 
-MHHEPATO(2): MHVASC NON_TARGET 
-MHIMMUNE(2): MHVASC MHSURG 
-MHINFECT(2): MHVASC NON_TARGET 
-MHINJURY(2): MHVASC MHSURG 
-MHINVEST(2): MHVASC REGION_C 
-MHMETAB(2): MHVASC HMG_COA_REDUCT 
-MHMUSCLE(2): MHVASC NON_TARGET 
-MHNEOPLA(2): MHVASC NON_TARGET 
-MHNERV(2): MHVASC MHMUSCLE 
-MHPSYCH(2): MHVASC REGION_C 
-MHRENAL(2): MHVASC NON_TARGET 
-MHRESP(2): MHVASC NON_TARGET 
-MHSKIN(2): MHVASC MHGASTRO 
-MHSOCIAL(2): MHVASC NON_TARGET 
-MHSURG(2): MHVASC NON_TARGET 
-MHVASC(2): 
-LogScore Bayes: -38078.40838188182
-LogScore BDeu: -38965.70725058925
-LogScore MDL: -39155.14714485741
-LogScore ENTROPY: -37587.37337685898
-LogScore AIC: -38012.37337685899
+MHNEOPLA(2): DEATH NON_TARGET 
+MHSOCIAL(2): DEATH NON_TARGET 
+CORTICOSTEROID(2): DEATH GLUCOCORTICOID 
+ALP(2): DEATH BONE 
+PERITONEUM(2): DEATH REGION_C 
+BUN(1): DEATH MHNEOPLA 
+ADRENAL(2): DEATH TARGET 
+PSA(2): DEATH ALP 
+AST(2): DEATH LDH 
+ALB(3): DEATH NON_TARGET 
+BILATERAL_ORCHIDECTOMY(2): DEATH ORCHIDECTOMY 
+HB(2): DEATH RBC 
+LIVER(2): DEATH TARGET 
+RACE_C(6): DEATH REGION_C 
+GIBLEED(2): DEATH MHNEOPLA 
+NON_TARGET(2): DEATH REGION_C 
+PROSTATE(2): DEATH REGION_C 
+TARGET(2): DEATH NON_TARGET 
+MHSURG(2): DEATH NON_TARGET 
+LDH(2): DEATH ALP 
+CA(1): DEATH MHNEOPLA 
+ANTI_ESTROGENS(2): DEATH AST 
+BMI(2): DEATH WEIGHTBL 
+TBILI(2): DEATH HB 
+WEIGHTBL(2): DEATH RACE_C 
+TURP(2): DEATH TARGET 
+MG(2): DEATH NON_TARGET 
+BONE(2): DEATH NON_TARGET 
+ECOG_C(1): DEATH MHNEOPLA 
+NA.(1): DEATH MHNEOPLA 
+SPINAL_CORD_SURGERY(2): DEATH TARGET 
+SOFT_TISSUE(2): DEATH TARGET 
+GLUCOCORTICOID(2): DEATH NON_TARGET 
+ABDOMINAL(2): DEATH MHNEOPLA 
+TESTO(2): DEATH REGION_C 
+MHINVEST(2): DEATH REGION_C 
+TPRO(1): DEATH MHNEOPLA 
+BLADDER(2): DEATH TARGET 
+LYMPHADENECTOMY(2): DEATH TARGET 
+MI(2): DEATH MHCARD 
+ORCHIDECTOMY(2): DEATH 
+ANALGESICS(2): DEATH ALP 
+REGION_C(5): DEATH BILATERAL_ORCHIDECTOMY 
+GONADOTROPIN(2): DEATH ORCHIDECTOMY 
+ANTI_ANDROGENS(2): DEATH ORCHIDECTOMY 
+RBC(2): DEATH MHNEOPLA 
+MHCARD(2): DEATH MHSURG 
+PLEURA(2): DEATH NON_TARGET 
+DEATH(2): 
+LogScore Bayes: -26298.446111215708
+LogScore BDeu: -26927.74867619344
+LogScore MDL: -26993.31796658007
+LogScore ENTROPY: -25993.631634515186
+LogScore AIC: -26264.631634515186
 
 
-Time taken to build model: 0.61 seconds
+Time taken to build model: 0.12 seconds
 
 === Stratified cross-validation ===
 === Summary ===
 
-Correctly Classified Instances        1207               75.4375 %
-Incorrectly Classified Instances       393               24.5625 %
-Kappa statistic                          0.5073
-Mean absolute error                      0.2594
-Root mean squared error                  0.4225
-Relative absolute error                 52.946  %
-Root relative squared error             85.361  %
-Coverage of cases (0.95 level)          94.75   %
-Mean rel. region size (0.95 level)      73.3438 %
+Correctly Classified Instances        1178               73.625  %
+Incorrectly Classified Instances       422               26.375  %
+Kappa statistic                          0.4466
+Mean absolute error                      0.3048
+Root mean squared error                  0.4412
+Relative absolute error                 62.7988 %
+Root relative squared error             89.5647 %
+Coverage of cases (0.95 level)          95.6875 %
+Mean rel. region size (0.95 level)      85.25   %
 Total Number of Instances             1600     
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.732    0.216    0.819      0.732    0.773      0.511    0.851     0.901     NO
-                 0.784    0.268    0.687      0.784    0.732      0.511    0.851     0.773     YES
-Weighted Avg.    0.754    0.238    0.762      0.754    0.756      0.511    0.851     0.846     
+                 0.620    0.181    0.707      0.620    0.661      0.449    0.791     0.716     YES
+                 0.819    0.380    0.753      0.819    0.784      0.449    0.791     0.830     NO
+Weighted Avg.    0.736    0.298    0.734      0.736    0.733      0.449    0.791     0.783     
 
 === Confusion Matrix ===
 
    a   b   <-- classified as
- 669 245 |   a = NO
- 148 538 |   b = YES
+ 411 252 |   a = YES
+ 170 767 |   b = NO
 
